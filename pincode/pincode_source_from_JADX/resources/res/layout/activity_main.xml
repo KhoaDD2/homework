@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <Space android:layout_width="1dp" android:layout_height="60dp"/>
+    <EditText android:textSize="48px" android:gravity="center" android:id="@+id/pincode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="Insert PIN here" android:maxLines="1" android:maxLength="8" android:inputType="number"/>
+    <Button android:id="@+id/checkpin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Check PIN"/>
+    <TextView android:textSize="56px" android:textStyle="bold" android:id="@+id/result" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=""/>
+</LinearLayout>
